@@ -1,3 +1,4 @@
+﻿
 /* 控制下雪 */
 function snowFall(snow) {
     /* 可配置属性 */
@@ -21,6 +22,7 @@ cancelAnimationFrame = window.cancelAnimationFrame ||
 	window.oCancelAnimationFrame;
 /* 开始下雪 */
 snowFall.prototype.start = function(){
+    document.body.style.backgroundColor = rgb(222,222,222);
     /* 创建画布 */
     snowCanvas.apply(this);
     /* 创建雪花形状 */
