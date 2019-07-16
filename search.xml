@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>Spring学习笔记&lt;持续更新中&gt;</title>
+      <link href="/2019/07/16/spring/"/>
+      <url>/2019/07/16/spring/</url>
+      
+        <content type="html"><![CDATA[<h1 id="1-Spring学习路线"><a href="#1-Spring学习路线" class="headerlink" title="1. Spring学习路线"></a><center>1. Spring学习路线</center></h1><blockquote><h3 id="1-Spring的概述、Spring-IOC-xml-、Spring的Bean管理、Spring属性注入"><a href="#1-Spring的概述、Spring-IOC-xml-、Spring的Bean管理、Spring属性注入" class="headerlink" title="1. Spring的概述、Spring IOC(xml)、Spring的Bean管理、Spring属性注入"></a>1. Spring的概述、Spring IOC(xml)、Spring的Bean管理、Spring属性注入</h3><h3 id="2-Spring-IOC的注解方式、Spring-AOP-xml"><a href="#2-Spring-IOC的注解方式、Spring-AOP-xml" class="headerlink" title="2. Spring IOC的注解方式、Spring AOP(xml)"></a>2. Spring IOC的注解方式、Spring AOP(xml)</h3><h3 id="3-Spring-AOP的注解开发、Spring事务、JdbcTemplate"><a href="#3-Spring-AOP的注解开发、Spring事务、JdbcTemplate" class="headerlink" title="3. Spring AOP的注解开发、Spring事务、JdbcTemplate"></a>3. Spring AOP的注解开发、Spring事务、JdbcTemplate</h3></blockquote><a id="more"></a><h2 id="1-1-Spring的概述"><a href="#1-1-Spring的概述" class="headerlink" title="1.1. Spring的概述"></a>1.1. Spring的概述</h2><h3 id="1-1-1-什么是Spring"><a href="#1-1-1-什么是Spring" class="headerlink" title="1.1.1. 什么是Spring"></a>1.1.1. 什么是Spring</h3><blockquote><p>先来看看百度百科给出的解释</p></blockquote><p><img src="/img/springDesc.png" alt="spring简介"></p><blockquote><p>简单总结一下<br>  Spring:SE/EE开发的<strong>一站式</strong>框架<br>  Spring具有EE开发的每一层的解决方案<br>  &emsp;&emsp;Web层：SpringMVC<br>  &emsp;&emsp;Service层：Spring的Bean管理、Spring的事务<br>  &emsp;&emsp;Dao层：Spring的Jdbc模板、Spring的ORM模块</p></blockquote><hr><h3 id="1-1-2-Spring的优点"><a href="#1-1-2-Spring的优点" class="headerlink" title="1.1.2. Spring的优点"></a>1.1.2. Spring的优点</h3><blockquote><ol><li>Java EE更加容易使用</li><li>面向对象的设计比任何实现技术(比如Java EE)都重要</li><li>面向接口编程，而不是针对类编程。Spring将使用接口的复杂度降低到零。（面向接口编程有哪些复杂度？）</li><li>代码应该易于测试。Spring框架会帮助你，使代码的测试更加简单</li><li>JavaBean提供了应用程序配置的最好方法</li><li>在Java中，已检查异常（Checked exception）被过度使用。框架不应该迫使你捕获不能恢复的异常</li></ol></blockquote><h2 id="1-2-Spring-IOC-xml"><a href="#1-2-Spring-IOC-xml" class="headerlink" title="1.2. Spring IOC(xml)"></a>1.2. Spring IOC(xml)</h2><h3 id="1-2-1-什么是IOC"><a href="#1-2-1-什么是IOC" class="headerlink" title="1.2.1. 什么是IOC?"></a>1.2.1. 什么是IOC?</h3><blockquote><p>  IOC:Inversion of control 控制反转 <br>简单来说，就是将对象的创建权“反转”给Spring，即让Spring进行对象(也就是Bean)的管理</p></blockquote><h3 id="1-2-2-IOC的底层原理简介"><a href="#1-2-2-IOC的底层原理简介" class="headerlink" title="1.2.2. IOC的底层原理简介"></a>1.2.2. IOC的底层原理简介</h3><p><img src="/img/IOC.bmp" alt="IOC"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>最大间隙问题</title>
       <link href="/2019/07/15/Maxgap/"/>
       <url>/2019/07/15/Maxgap/</url>
